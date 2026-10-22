@@ -18,9 +18,13 @@ pip install -r requirements.txt
 python -m streamlit run app.py
 
 ## Modificación propia
-(Expliquen aquí qué cambiaron y por qué)
+En el código original, el agente perdía 1 punto por cada paso y solo sabía si iba bien cuando llegaba a la meta. Para que aprendiera más rápido, cambiamos los premios: ahora gana 1 punto cada vez que se acerca a la meta y, si se aleja, pierde el doble (2 puntos). Chocar se queda igual (−10 puntos) y llegar a la meta da 100 puntos.
+
+Agregamos el castigo al doble para que el agente no hiciera trampa: si ganara y perdiera lo mismo, podría ir y regresar sin perder nada. Así, cada vuelta le cuesta puntos y le conviene ir directo a la meta.
+
+Resultado: con los mismos parámetros, antes llegaba a la meta 241 de 300 veces y ahora llega 298 de 300. También agregamos una gráfica de los puntos que junta en cada episodio.
 
 ## Integrantes
-- Nombre 1
-- Nombre 2
-- Nombre 3
+- CAMILA ESTEFANIA ORTEGA LUNA
+- AIDA SARAHI TORRES SALAZAR
+- JOSE ALEJANDRO MARTINEZ GONZALEZ 

@@ -142,3 +142,5 @@ if st.button("Correr experimento"):
     st.pyplot(grafica_exito(curvas))
     st.caption("Epsilon alto = explora mucho al azar, tarda más en aprender. "
                "Epsilon bajo = aprovecha lo que sabe y sube más rápido.")
+
+               

@@ -24,7 +24,7 @@ Agregamos el castigo al doble para que el agente no hiciera trampa: si ganara y 
 
 Resultado: con los mismos parámetros, antes llegaba a la meta 241 de 300 veces y ahora llega 298 de 300. También agregamos una gráfica de los puntos que junta en cada episodio.
 
-## Integrantes
+## Integrantes equipo 3
 - CAMILA ESTEFANIA ORTEGA LUNA
 - AIDA SARAHI TORRES SALAZAR
 - JOSE ALEJANDRO MARTINEZ GONZALEZ 

@@ -1,5 +1,6 @@
 import numpy as np
 
+#significa
 # '#' = pared   '.' = libre   'S' = inicio   'M' = meta
 LABERINTO = [
     "S..#....",
@@ -11,6 +12,7 @@ LABERINTO = [
     "..#...#.",
     "#...#..M",
 ]
+
 
 
 ACCIONES = [(-1, 0), (1, 0), (0, -1), (0, 1)]  # arriba, abajo, izquierda, derecha
